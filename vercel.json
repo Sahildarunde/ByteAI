@@ -15,8 +15,7 @@
     "build": {
         "env": {
             "EXAMPLE_KEY": "value"
-        },
-        "use": "@vercel/node"
+        }
     }
   }
   
