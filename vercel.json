@@ -14,9 +14,8 @@
     },
     "build": {
         "env": {
-          "EXAMPLE_KEY": "value"
+            "EXAMPLE_KEY": "value"
         },
-        "src": "src/app",
         "use": "@vercel/node"
     }
   }
