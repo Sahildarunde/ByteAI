@@ -13,9 +13,11 @@
       "DATABASE_URL": "@your_database_url"
     },
     "build": {
-      "scripts": {
-        "build": "prisma generate"
-      }
+        "env": {
+          "EXAMPLE_KEY": "value"
+        },
+        "src": "src/app",
+        "use": "@vercel/node"
     }
   }
   
